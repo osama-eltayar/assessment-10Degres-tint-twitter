@@ -1,0 +1,36 @@
+<?php
+
+namespace {{ namespace }};
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+/**
+ * @method static self create(array $data)
+ */
+class {{ class }} extends Model
+{
+    use HasFactory;
+
+    /**
+    * The attributes that are mass assignable.
+    * @var array
+    */
+    protected $fillable = [
+    ];
+
+    //########################################### consts ################################################
+
+
+    //########################################### Accessors ################################################
+
+
+    //########################################### Mutators #################################################
+
+
+    //########################################### Scopes ###################################################
+
+
+    //########################################### Relations ################################################
+
+
+}
